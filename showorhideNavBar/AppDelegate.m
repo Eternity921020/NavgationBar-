@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "RootViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+
     // Override point for customization after application launch.
+    [[UINavigationBar appearance] setBarStyle:UIBarStyleBlackOpaque];
+    
+    UINavigationController *navC=[[UINavigationController alloc] initWithRootViewController:[[RootViewController alloc] init]];
+    self.window.rootViewController = navC;
     return YES;
 }
 

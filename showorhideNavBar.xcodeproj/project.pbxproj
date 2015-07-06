@@ -14,6 +14,8 @@
 		56D721F81B44F60E0037E651 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56D721F71B44F60E0037E651 /* Images.xcassets */; };
 		56D721FB1B44F60E0037E651 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56D721F91B44F60E0037E651 /* LaunchScreen.xib */; };
 		56D722071B44F60E0037E651 /* showorhideNavBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D722061B44F60E0037E651 /* showorhideNavBarTests.m */; };
+		56D722121B44F6D80037E651 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D722111B44F6D80037E651 /* RootViewController.m */; };
+		56D722471B44F9B30037E651 /* SecondView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D722461B44F9B30037E651 /* SecondView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		56D722001B44F60E0037E651 /* showorhideNavBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = showorhideNavBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56D722051B44F60E0037E651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56D722061B44F60E0037E651 /* showorhideNavBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = showorhideNavBarTests.m; sourceTree = "<group>"; };
+		56D722101B44F6D80037E651 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		56D722111B44F6D80037E651 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		56D722451B44F9B30037E651 /* SecondView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondView.h; sourceTree = "<group>"; };
+		56D722461B44F9B30037E651 /* SecondView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				56D721EF1B44F60E0037E651 /* AppDelegate.m */,
 				56D721F11B44F60E0037E651 /* ViewController.h */,
 				56D721F21B44F60E0037E651 /* ViewController.m */,
+				56D722101B44F6D80037E651 /* RootViewController.h */,
+				56D722111B44F6D80037E651 /* RootViewController.m */,
+				56D722451B44F9B30037E651 /* SecondView.h */,
+				56D722461B44F9B30037E651 /* SecondView.m */,
 				56D721F41B44F60E0037E651 /* Main.storyboard */,
 				56D721F71B44F60E0037E651 /* Images.xcassets */,
 				56D721F91B44F60E0037E651 /* LaunchScreen.xib */,
@@ -221,6 +231,8 @@
 			files = (
 				56D721F31B44F60E0037E651 /* ViewController.m in Sources */,
 				56D721F01B44F60E0037E651 /* AppDelegate.m in Sources */,
+				56D722121B44F6D80037E651 /* RootViewController.m in Sources */,
+				56D722471B44F9B30037E651 /* SecondView.m in Sources */,
 				56D721ED1B44F60E0037E651 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
